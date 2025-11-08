@@ -1,3 +1,10 @@
+---
+layout: mermaid
+title: Diagrams demo
+permalink: /
+---
+
+
 # pages-klooien
 
 
@@ -12,8 +19,6 @@ Ik ben een zeemeermin:
 
 ```mermaid
 classDiagram
-    
-
     class AvailableGame {
         <<enumeration>>
         Blackjack
