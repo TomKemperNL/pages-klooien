@@ -76,3 +76,32 @@ PlantUML is kennelijk ook nukkig, want dit is **iets anders**??
 testdot
 @enduml
 {% endplantuml %}
+
+
+En is testdot eigenlijk wel goed genoeg?
+
+{% plantuml %}
+@startuml
+left to right direction
+
+cloud "Azure" {
+
+    node "Some Virtual Machine" {    
+        frame "MyApplication.jar" {            
+            rectangle "Vite Frontend" as fe             
+            rectangle "Backend" as be
+        }
+        database "Postgres" as pg
+        
+        ' Dit is echt fucking zwarte chatgpt magie
+        fe -[hidden]down-> be
+        be -[hidden]down-> pg
+
+        be -> pg
+        fe -> be
+        
+    }
+}
+
+@enduml
+{% endplantuml %}
