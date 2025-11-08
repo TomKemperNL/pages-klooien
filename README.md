@@ -54,9 +54,9 @@ classDiagram
 
 En ik ben een boerenpummel:
 
-```plantuml
+{% plantuml %}
 @startuml
-  class Example {
+ class Example {
     - String name
     - int number 
     
@@ -65,5 +65,4 @@ En ik ben een boerenpummel:
     +String toString()
   }
 @enduml
-```
-
+{% endplantuml %}

@@ -2,4 +2,6 @@ theme: jekyll-theme-minimal
 # remote_theme: benbalter/retlab
 plugins: 
   - jemoji
+  - jekyll-diagrams
+  
   # - jekyll-remote-theme
