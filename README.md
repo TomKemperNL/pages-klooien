@@ -66,3 +66,13 @@ En ik ben een boerenpummel:
   }
 @enduml
 {% endplantuml %}
+
+
+
+PlantUML is kennelijk ook nukkig, want dit is **iets anders**??
+
+{% plantuml %}
+@startuml
+testdot
+@enduml
+{% endplantuml %}
