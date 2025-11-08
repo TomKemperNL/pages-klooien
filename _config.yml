@@ -3,7 +3,3 @@ theme: jekyll-theme-minimal
 plugins: 
   - jemoji
   - jekyll-diagrams
-
-jekyll-diagrams:
-  plantuml:
-    server_url: "https://www.plantuml.com/plantuml"
